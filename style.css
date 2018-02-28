@@ -13,6 +13,7 @@ h1 {
   letter-spacing: 2px;
   margin-bottom: 0px;
   color: #FBFBFB;
+  cursor: pointer;
 }
 
 input {
@@ -51,4 +52,8 @@ button {
 .goButton {
   font-size: 36px;
   padding: 4px 48px;
+}
+
+.pinkBackground{
+  background-color: #FAE3D9;
 }
