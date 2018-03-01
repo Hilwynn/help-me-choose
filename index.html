@@ -53,6 +53,10 @@
           }
         })
 
+        var winner = options[Math.floor(Math.random() * options.length)]
+        $('.resultSection').text(winner)
+        $('.title').text('The winner is:')
+      }
 
       var reset = function()  {
         options.length = 0
