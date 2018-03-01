@@ -35,6 +35,16 @@
     $('.addOption').click(add_option)
     });
 
+      var reset = function()  {
+        options.length = 0
+        $('.resultSection').hide()
+        $('.inputSection').css('display', 'flex')
+        $('.title').text('Help me choose between...')
+        $('input').val('')
+        $('input').not(':first').remove()
+      }
+      $('.resetButton').click(reset)
+
     $('h1').click(function()  {
       $('body').toggleClass('pinkBackground')
     });
