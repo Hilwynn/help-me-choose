@@ -34,6 +34,18 @@
 
     $('.addOption').click(add_option)
     });
+      var options = []
+      var submit = function() {
+        $('.inputSection').hide()
+        $('.resultSection').css('display', 'flex')
+        $('input').each(function() {
+          if ($.trim($(this).val()) == '')  {
+
+          }
+          else {
+            options.push($.trim($(this).val()))
+          }
+        })
 
       var reset = function()  {
         options.length = 0
