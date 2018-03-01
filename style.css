@@ -5,14 +5,14 @@ body {
   align-items: center;
   margin-top: 150px;
   background-color: #B9E1DC;
+  font-family: Amatic SC;
+  color: #FBFBFB;
 }
 
 h1 {
-  font-family: Amatic SC;
   font-size: 75px;
   letter-spacing: 2px;
   margin-bottom: 0px;
-  color: #FBFBFB;
   cursor: pointer;
 }
 
@@ -29,7 +29,8 @@ button {
   font-size: 24px;
   background-color: #F38181;
   border: none;
-  padding: 1px 16px;
+  height: 32px;
+  padding: 0px 16px;
   text-align: center;
   color: #FBFBFB;
 }
@@ -37,15 +38,15 @@ button {
 .inputSection {
   margin: 50px 0px 80px 0px;
   width: 400px;
-}
-
-.inputs {
-  width: inherit;
   display: flex;
   flex-direction: column;
 }
 
-.addOption {
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
   margin-top: 10px;
 }
 
@@ -54,6 +55,6 @@ button {
   padding: 4px 48px;
 }
 
-.pinkBackground{
+.pinkBackground {
   background-color: #FAE3D9;
 }
