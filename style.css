@@ -47,12 +47,28 @@ button {
   flex-direction: column;
 }
 
+.optionsSection {
   margin-top: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.goButton {
-  font-size: 36px;
-  padding: 4px 48px;
+.submitSection  {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 56px;
+}
+
+.resultSection  {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
 }
 
 .pinkBackground {
