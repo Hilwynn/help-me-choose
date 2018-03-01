@@ -32,6 +32,13 @@
       $('.inputs').append('<input></input>')
       }
 
+      var remove_option = function() {
+        if ($('input').length > 1) {
+        $('input').last().remove()
+        }
+      }
+      $('.removeOption').click(remove_option)
+
     $('.addOption').click(add_option)
     });
       var options = []
