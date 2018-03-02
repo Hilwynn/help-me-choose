@@ -66,7 +66,7 @@
       var options = []
       var submit = function() {
         $('.inputSection').hide()
-        $('.resultSection').css('display', 'flex')
+        $('.resultSection').show()
         $('input').each(function() {
           if ($.trim($(this).val()) == '')  {
 
@@ -85,7 +85,7 @@
       var reset = function()  {
         options.length = 0
         $('.resultSection').hide()
-        $('.inputSection').css('display', 'flex')
+        $('.inputSection').show()
         $('.title').text('Help me choose between...')
         $('input').val('')
         $('input').not(':first').remove()
