@@ -29,6 +29,10 @@ input {
   font-family: Helvetica;
 }
 
+input:focus {
+  outline: none;
+}
+
 button {
   font-family: Amatic SC;
   font-size: 24px;
