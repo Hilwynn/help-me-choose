@@ -35,6 +35,10 @@ button {
   color: #FBFBFB;
 }
 
+.addOption  {
+  margin-right: 5px;
+}
+
 .submitButton {
     margin-right: 10px;
 }
