@@ -66,6 +66,7 @@ button {
 .resultSection  {
   margin: 50px 0px 80px 0px;
   width: 400px;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 56px;
