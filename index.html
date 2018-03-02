@@ -68,11 +68,8 @@
         $('.inputSection').hide()
         $('.resultSection').show()
         $('input').each(function() {
-          if ($.trim($(this).val()) == '')  {
-
-          }
-          else {
-            options.push($.trim($(this).val()))
+          if ($.trim($(this).val()) !== '')  {
+						options.push($.trim($(this).val()))
           }
         })
 
