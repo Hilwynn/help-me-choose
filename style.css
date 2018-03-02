@@ -74,6 +74,11 @@ button {
 .pinkBackground {
   background-color: #FAE3D9;
 }
+
+.turquoiseButtons {
+  background-color: #80CCCB;
+}
+
 .content {
   display: flex;
   flex-direction: column;
