@@ -74,3 +74,15 @@ button {
 .pinkBackground {
   background-color: #FAE3D9;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 50px;
+  padding: 12px;
+  background-color: #FBFBFB;
+	color: #191919;
+	font-size: 12px;
+	font-family: sans-serif;
+}
