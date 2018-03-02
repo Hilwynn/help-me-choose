@@ -40,6 +40,10 @@ button {
   color: #FBFBFB;
 }
 
+button:focus {
+  outline: none;
+}
+
 .addOption  {
   margin-right: 5px;
 }
