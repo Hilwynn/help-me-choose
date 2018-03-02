@@ -1,9 +1,14 @@
+html {
+  margin: 0;
+  height: 100%
+}
+
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 150px;
+  height: 100vh;
+  margin: 0;
+
   background-color: #B9E1DC;
   font-family: Amatic SC;
   color: #FBFBFB;
